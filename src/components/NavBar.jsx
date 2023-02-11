@@ -1,7 +1,12 @@
 import React, { useState } from 'react'
 import { Link } from 'react-scroll'
-import Logo from 'public/images/melody_ai_logo.png'
+
 import { FaTimes, FaBars } from 'react-icons/fa'
+
+// images links
+
+// When using the new react, we use the links to the image rather importing it. That is if the image is in the public directory
+const Logo = '/images/melody_ai_logo.png'
 
 const NavBar = () => {
   const [nav, setNav] = useState(false)
@@ -42,10 +47,10 @@ const NavBar = () => {
           Logo
         </h1>
       </div>
-      <div 
+      <div
         onClick={() => setNav(!nav)}
         className='cursor-pointer pr-4 z-10 text-white md:hidden'
-      >      
+      >
         {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
       </div>
 

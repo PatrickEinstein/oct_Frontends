@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from 'src/assets/eventsPresent.png'
+import logo from '../assets/eventsPresent.png'
 
 const Events = () => {
   return (
