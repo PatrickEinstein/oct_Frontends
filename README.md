@@ -1,71 +1,44 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- Organization Name -->
+# OCTAVE INCORPORATIONS
 
-## Available Scripts
+Octave-backend
+Here lives the backend source code of Octave's website alongside it's daughter products.
 
-In the project directory, you can run:
+![Twitter Badge](https://img.shields.io/badge/-@Octave-1ca0f1?style=for-the-badge&logo=twitter&logoColor=white&link=https://twitter.com/Octave_Inc?t=WNlQ10xmb2i1adiHAuK3DQ&s=09)
 
-### `npm start`
+![Linkedin Badge](https://img.shields.io/badge/-Octave-blue?style=for-the-badge&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/company/octave-incorporations/)
+![Facebook](https://img.shields.io/badge/Octave-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white&link=https://www.facebook.com/octaveincorporations?mibextid=ZbWKwL)
+![YouTube](https://img.shields.io/badge/Octave-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white&link=https://youtube.com/@octaveincorporations1948)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- Description -->
+Octave INC. is on a mission to advance digitization in Nigeria 
+and Africa 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- How to Get Involved -->
+Be an Octavian today !
 
-### `npm test`
+Join a community of tech talents who are solving complex problems in Africa to advance digitization and transform lives
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- Projects -->
+Learn with the best experience
+Choose from our uniquely designed courses to build value-adding skills and enroll for free virtual internships that help you gain real work experience
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Scale your business with AI
+Melody AI is an MLOPS platform that will scale your business to new heights with personalized AI powered solutions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Connect to limitless opportunities
+Octave Talents connects skilled tech professionals to opportunities that enables them to reach their full potential
 
-### `npm run eject`
+Unleashing the tech-entrepreneurs of the future
+Octave digital university is dedicated to empowering the next generation of tech, equiping them with skills and knowledge necessary to thrive in the digital world
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Note: The organization's projects are for internal use only and are not open-source. Access to the organization's codebase is restricted to authorized members only.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# websiteFrontend" 
