@@ -25,6 +25,7 @@ Join a community of tech talents who are solving complex problems in Africa to a
 <!-- Projects -->
 Learn with the best experience
 Choose from our uniquely designed courses to build value-adding skills and enroll for free virtual internships that help you gain real work experience
+Web UI => https://www.figma.com/proto/duixBkKY53rV7HyJrHRtgM/OctaveInc?page-id=0%3A1&node-id=2066%3A3059&viewport=482%2C-1564%2C0.11&scaling=scale-down&starting-point-node-id=2066%3A3059
 
 Scale your business with AI
 Melody AI is an MLOPS platform that will scale your business to new heights with personalized AI powered solutions
