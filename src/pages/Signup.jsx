@@ -1,24 +1,38 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import AuthPage from "../components/AuthPage";
+import styles from "../styles";
 
 const SignupPage = () => {
   return (
-    <div>
-      <section>Image section</section>
-      <section>
+    <div className="h-screen flex px-3">
+      <section className="flex-1">Image section</section>
+      <section className="flex-1">
         <header>Octave Logo</header>
-        <h2>Signup</h2>
-        <form action="">
-          <div>
-            <input type="text" placeholder="First Name" />
+        <h2 className="text-lg">Signup</h2>
+        <form action="" className="border flex flex-col gap-y-3 px-3">
+          <div className={`${styles.inputContainer}`}>
+            <input
+              type="text"
+              placeholder="First Name"
+              className={styles.input}
+            />
           </div>
 
-          <div>
-            <input type="text" placeholder="Last Name" />
+          <div className={styles.inputContainer}>
+            <input
+              type="text"
+              placeholder="Last Name"
+              className={styles.input}
+            />
           </div>
-          <div>
-            <input type="text" placeholder="Username" />
+
+          <div className={styles.inputContainer}>
+            <input
+              type="text"
+              placeholder="Username"
+              className={styles.input}
+            />
           </div>
           <div>
             <input type="password" placeholder="Password" />
