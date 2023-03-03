@@ -1,16 +1,17 @@
-import { BrowserRouter } from "react-router-dom";
-import "./App.css";
-import Customers from "./components/Customers";
-import Events from "./components/Events";
-import EventsBar from "./components/EventsBar";
-import NavBar from "./components/NavBar";
-import UpcomingEvents from "./components/UpcomingEvents";
-import Router from "./Router";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import EventsPage from "./pages/Events";
+import HomePage from "./pages/Home";
+import SignupPage from "./pages/Signup";
 
 function App() {
   return (
     <BrowserRouter>
-      <Router />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/signup" element={<SignupPage />} />
+        <Route path="/events" element={<EventsPage />} />
+        <Route path="*" element={<>Not found</>} />
+      </Routes>
     </BrowserRouter>
   );
 }
