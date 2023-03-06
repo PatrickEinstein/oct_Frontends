@@ -1,7 +1,7 @@
 import React from "react";
 
-const index = () => {
-  return <div>index</div>;
+const Index = () => {
+  return <div className="text-4xl">index</div>;
 };
 
-export default index;
+export default Index;
