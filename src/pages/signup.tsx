@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import InputDiv from "../components/signup/InputDiv";
+import SignupForm from "../components/signup/SignupForm";
+import SignupInput from "../components/signup/SignupInput";
 
 const Signup = () => {
   const [firstName, setFirstName] = useState<string>();
@@ -14,72 +17,74 @@ const Signup = () => {
       <section className="w-full lg:w-1/2 border border-green-700 h-full flex flex-col justify-center items-center px-4">
         <h2 className="text-center text-6xl">Octave Logo</h2>
         <h2 className="text-4xl text-center my-5">Signup</h2>
-        <form
-          action=""
-          method="post"
-          className="border-black border-4 py-4 px-2 flex flex-col gap-3 w-full max-w-xl"
-        >
-          <div className="bg-orange-300 rounded flex focus-within:shadow-lg">
-            <input
-              className="bg-transparent p-2 placeholder:text-gray-900 flex-1 outline-none "
+        <SignupForm>
+          <InputDiv>
+            <SignupInput
               type="text"
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                setFirstName(e.target.value);
+              }}
               value={firstName}
               placeholder={"First Name"}
               title={"First Name"}
             />
-          </div>
-          <div className="bg-orange-300 rounded flex focus-within:shadow-lg">
-            <input
-              className="bg-transparent p-2 placeholder:text-gray-900 flex-1 outline-none "
+          </InputDiv>
+          <InputDiv>
+            <SignupInput
               type="text"
               value={lastName}
               placeholder={"Last Name"}
               title={"Last Name"}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                setFirstName(e.target.value);
+              }}
             />
-          </div>
-          <div className="bg-orange-300 rounded flex focus-within:shadow-lg">
-            <input
-              className="bg-transparent p-2 placeholder:text-gray-900 flex-1 outline-none "
+          </InputDiv>
+          <InputDiv>
+            <SignupInput
               type="text"
               value={username}
               placeholder={"Username"}
               title={"Username: This field is required"}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                setFirstName(e.target.value);
+              }}
             />
-          </div>
-          <div className="bg-orange-300 rounded flex focus-within:shadow-lg">
-            <input
-              className="bg-transparent p-2 placeholder:text-gray-900 flex-1 outline-none "
+          </InputDiv>
+          <InputDiv>
+            <SignupInput
               type="password"
-              name=""
-              id=""
               value={password1}
               placeholder={"Password"}
               title={"Password"}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                setFirstName(e.target.value);
+              }}
             />
-          </div>
-          <div className="bg-orange-300 rounded flex focus-within:shadow-lg">
-            <input
-              className="bg-transparent p-2 placeholder:text-gray-900 flex-1 outline-none "
+          </InputDiv>
+          <InputDiv>
+            <SignupInput
               type="password"
-              name=""
-              id=""
               value={password2}
               placeholder={"Confirm Password"}
               title={"Confirm Password"}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                setFirstName(e.target.value);
+              }}
             />
-          </div>
+          </InputDiv>
           <div>
             <button
               type="submit"
               className="bg-crimson block p-2 w-full text-xl text-white font-medium rounded"
-              onClick={(e) => {
+              onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
                 e.preventDefault();
               }}
             >
               Sign Up
             </button>
           </div>
-        </form>
+        </SignupForm>
       </section>
     </div>
   );
