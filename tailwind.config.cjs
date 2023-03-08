@@ -13,8 +13,8 @@ module.exports = {
 			colors: {
 				crimson: "#dc143c",
 				paleWhite: "#E5E5E5",
-        black: "##061501",
-        pink: 
+				lightBlack: "##061501",
+				pink: "#FB4290",
 			},
 			fontFamily: {
 				inter: ["Inter", "sans-serif"],
