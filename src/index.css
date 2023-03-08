@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html,
+body,
+* {
+  font-size: 1rem;
+}
+
+a.active {
+  color: #fe006a;
+
+  border-bottom: 4px solid #214284;
+}
+
+/* #214284 */

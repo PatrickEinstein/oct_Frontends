@@ -1,15 +1,20 @@
-import React from "react";
+import { Fragment } from "react";
+import Footer from "./Footer";
 import Navbar from "./Navbar";
 
 type LayoutProps = {
   children: React.ReactNode | string;
-};
+} & Omit<React.ComponentProps<"div">, "children">;
+
 const Layout = ({ children }: LayoutProps) => {
   return (
-    <div>
-      <Navbar />
-      <div>{children}</div>
-    </div>
+    <Fragment>
+      <header>
+        <Navbar />
+      </header>
+      <main>{children}</main>
+      <Footer />
+    </Fragment>
   );
 };
 
