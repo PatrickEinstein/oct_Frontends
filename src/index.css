@@ -8,12 +8,16 @@ html,
 body,
 * {
   font-size: 1rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: normal;
 }
 
 a.active {
-  color: #fe006a;
+  color: #fe0044;
 
-  border-bottom: 4px solid #214284;
+  border-bottom: 4px solid #0b204a;
 }
 
 /* #214284 */

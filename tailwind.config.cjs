@@ -15,8 +15,8 @@ module.exports = {
         paleWhite: "#E5E5E5",
         black: "#061501",
         pink: "",
-        primary: "#214284",
-        secondary: "#fe006a",
+        primary: "#0b204a",
+        secondary: "#fe0044",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

@@ -1,5 +1,7 @@
 import React from "react";
+import CardSection from "../components/home/CardSection";
 import Hero from "../components/home/Hero";
+import SupportSection from "../components/home/SupportSection";
 import Layout from "../components/layout/Layout";
 
 const Index = () => {
@@ -7,29 +9,8 @@ const Index = () => {
     <div className="text-4xl">
       <Layout>
         <Hero />
-        <section>
-          <div>
-            <h4>Training and mentorship</h4>
-            <p>
-              With the experienced tutors who will not only teach you
-              practically, but who also metor you through
-            </p>
-          </div>
-          <div>
-            <h4>Training and mentorship</h4>
-            <p>
-              With the experienced tutors who will not only teach you
-              practically, but who also metor you through
-            </p>
-          </div>
-          <div>
-            <h4>Training and mentorship</h4>
-            <p>
-              With the experienced tutors who will not only teach you
-              practically, but who also metor you through
-            </p>
-          </div>
-        </section>
+        <CardSection />
+        <SupportSection />
       </Layout>
     </div>
   );

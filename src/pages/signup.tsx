@@ -76,7 +76,7 @@ const Signup = () => {
           <div>
             <button
               type="submit"
-              className="bg-crimson block p-2 w-full text-xl text-white font-medium rounded"
+              className="bg-primary block p-2 w-full text-xl text-white font-medium rounded"
               onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
                 e.preventDefault();
               }}
