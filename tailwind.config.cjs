@@ -16,7 +16,7 @@ module.exports = {
         black: "#061501",
         pink: "",
         primary: "#0b204a",
-        secondary: "#fe0044",
+        secondary: "#ff006b",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],

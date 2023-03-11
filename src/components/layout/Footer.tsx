@@ -1,27 +1,38 @@
 import { Link } from "react-router-dom";
-import {} from "react-icons/ai";
+import {
+  AiFillFacebook,
+  AiFillLinkedin,
+  AiOutlineFacebook,
+  AiOutlineLinkedin,
+  AiOutlineTwitter,
+} from "react-icons/ai";
+import OctaveLogo from "./../../assets/images/OctaveLogo.png";
 const Footer = () => {
   return (
-    <footer className="bg-gray-400 px-4 lg:px-16">
-      <div>Octave Logo</div>
+    <footer className="bg-gray-400 px-4 lg:px-16 pt-4">
+      <div>
+        <a href="/">
+          <img src={OctaveLogo} alt="Octave Incorporations" />
+        </a>
+      </div>
       <div className="flex justify-between px-16 my-8">
         <ul>
-          <li className="text-primary">Company</li>
+          <li className="text-primary text-lg font-bold">Company</li>
           <li>
-            <Link to="">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="">Careers</Link>
+            <Link to="/careers">Careers</Link>
           </li>
           <li>
-            <Link to="">Blogs</Link>
+            <Link to="/blog">Blogs</Link>
           </li>
           <li>
             <Link to="">Affiliate</Link>
           </li>
         </ul>
         <ul>
-          <li className="text-primary">Community</li>
+          <li className="text-primary text-lg font-bold">Community</li>
           <li>
             <Link to="">Refer a Friend</Link>
           </li>
@@ -35,11 +46,11 @@ const Footer = () => {
             <Link to="">Scholarship</Link>
           </li>
           <li>
-            <Link to="">Free Courses</Link>
+            <Link to="/courses">Free Courses</Link>
           </li>
         </ul>
         <ul>
-          <li className="text-primary">Tutoring</li>
+          <li className="text-primary text-lg font-bold">Tutoring</li>
           <li>
             <Link to="">Become a Tutor</Link>
           </li>
@@ -51,7 +62,7 @@ const Footer = () => {
           </li>
         </ul>
         <ul>
-          <li className="text-primary">Support</li>
+          <li className="text-primary text-lg font-bold">Support</li>
           <li>
             <Link to="">Support</Link>
           </li>
@@ -69,9 +80,20 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <div>
-        <div>2023 OctaveInc. &copy; All Rights Reserved</div>
-        <div></div>
+      <div className="flex gap-8 justify-center">
+        <div className="mr-8">2023 OctaveInc. &copy; All Rights Reserved</div>
+        <div className="flex gap-1 ml-8">
+          <a href="" target={"_blank"}>
+            <AiOutlineTwitter />
+          </a>
+          <a href="">
+            <AiFillFacebook />
+          </a>
+          <a href="">
+            <AiFillLinkedin />
+          </a>
+          <a href=""></a>
+        </div>
       </div>
     </footer>
   );

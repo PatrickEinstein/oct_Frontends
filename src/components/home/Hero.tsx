@@ -1,10 +1,10 @@
-import React from "react";
 import Section from "../layout/Section";
+import HeroImage from "./../../assets/images/hero_img.png";
 
 const Hero = () => {
   return (
     <Section>
-      <div className="flex items-center gap-4 h-96">
+      <div className="flex items-center gap-4  py-32">
         <div className="flex-1">
           <h3 className="text-primary text-2xl my-4 font-bold font-rubik">
             Empowering the future of Africa
@@ -19,7 +19,9 @@ const Hero = () => {
             </button>
           </p>
         </div>
-        <div className="hidden lg:block lg:flex-1">some</div>
+        <div className="hidden lg:block lg:flex-1">
+          <img src={HeroImage} alt="" />
+        </div>
       </div>
     </Section>
   );
