@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import InputDiv from "../components/signup/InputDiv";
 import SignupForm from "../components/signup/SignupForm";
 import SignupInput from "../components/signup/SignupInput";
-
+import BulbImage from "./../assets/images/bulb.png";
+import OctaveLogo from "./../assets/images/OctaveLogo.png";
 const Signup = () => {
   const [firstName, setFirstName] = useState<string>();
   const [lastName, setLastName] = useState<string>();
@@ -11,11 +12,13 @@ const Signup = () => {
   const [password2, setPassword2] = useState<string>();
   return (
     <div className="flex h-screen">
-      <section className="w-1/2 border border-red-700 h-full hidden lg:block">
-        Hmm
+      <section className="w-1/2 h-full hidden lg:block max-w-xl">
+        <img src={BulbImage} alt="" className="w-full h-full " />
       </section>
-      <section className="w-full lg:w-1/2 border border-green-700 h-full flex flex-col justify-center items-center px-4">
-        <h2 className="text-center text-6xl">Octave Logo</h2>
+      <section className="w-full flex-1 lg:w-1/2 h-full flex flex-col justify-center items-center px-4">
+        <h2 className="text-center text-6xl">
+          <img src={OctaveLogo} alt="Octave Incorporations" />
+        </h2>
         <h2 className="text-4xl text-center my-5">Signup</h2>
         <SignupForm>
           <InputDiv>
@@ -76,7 +79,7 @@ const Signup = () => {
           <div>
             <button
               type="submit"
-              className="bg-primary block p-2 w-full text-xl text-white font-medium rounded"
+              className="bg-secondary block p-2 w-full text-xl text-white font-medium rounded"
               onClick={(e: React.MouseEvent<HTMLButtonElement>) => {
                 e.preventDefault();
               }}
