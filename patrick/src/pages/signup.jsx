@@ -43,6 +43,7 @@ const Signup = () => {
           }),
         }
       );
+      
       const savedUser = await savedUserResponse.json();
       console.log(savedUserResponse);
     } catch (error) {
